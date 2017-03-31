@@ -41,7 +41,7 @@ public:
                                            double lambda);
 
   /**
-  * A helper method to normalise an angle between -pi and pi.
+  * A helper method to normalise an angle between -pi and pi inclusive.
   */
   double NormaliseAngle(double theta);
 

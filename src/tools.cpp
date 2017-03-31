@@ -108,7 +108,10 @@ VectorXd Tools::ProducePredictionWeights(unsigned int num_sigma_points,
 }
 
 /**
-* A helper method to normalise an angle between -pi and pi.
+* A helper method to normalise an angle between -pi and pi inclusive. 
+* NB: The 1e-10 term is necessary to get fmod to bound the value between
+* -pi and pi inclusive. The term is so small that any potential error has no
+* appreciable affect on the UKF performance.
 */
 double Tools::NormaliseAngle(double theta) {
   return fmod(theta, (M_PI + 1e-10));
