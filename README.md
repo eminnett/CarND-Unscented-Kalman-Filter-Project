@@ -1,7 +1,11 @@
-# Unscented Kalman Filter Project Starter Code
-Self-Driving Car Engineer Nanodegree Program
+# Term 2: Project 2: Unscented Kalman Filter
+## Sensor Fusion
+#### Self-Driving Car Engineer Nanodegree (Udacity)
+Project submission by Edward Minnett (ed@methodic.io).
 
----
+March 31st 2017. (Revision 1)
+
+-------
 
 ## Dependencies
 
