@@ -18,6 +18,15 @@ Self-Driving Car Engineer Nanodegree Program
    some sample inputs in 'data/'.
     - eg. `./UnscentedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
 
+## Test Build Instructions
+
+1. Navigate to the build directory: `cd build`
+2. Compile (with the `test` set to `ON`): `cmake -Dtest=ON .. && make`
+3. Run the tests from the build directory:
+    - High level over view of all test files: `make test`
+    - Detailed execution of the tests for `tools.cpp`: `./ToolsTest`
+    - Detailed execution of the tests for `ukf.cpp`: `./UKFTest`
+
 ## Editor Settings
 
 We've purposefully kept editor configuration files out of this repo in order to
